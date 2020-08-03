@@ -5,7 +5,9 @@ import Card from './movie/Card';
 class Popular extends Component {
 
     state = {
-        movies: []
+        movies: [],
+      
+
     }
 
     componentDidMount() {
